@@ -1,4 +1,4 @@
-To-Do List App with User Authentication
+#To-Do List App with User Authentication
 Description
 A modern, user-friendly web application built with Flask that allows users to manage their tasks efficiently. Features include:
 
