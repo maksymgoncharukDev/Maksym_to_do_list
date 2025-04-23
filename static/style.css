@@ -1,0 +1,132 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for the Form */
+form {
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 100%; /* Makes the form span full width */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the Input Field */
+form input[type="text"] {
+    width: 100%; /* Full width of the form */
+    padding: 15px; /* Enlarged padding for user-friendly design */
+    font-size: 18px; /* Larger text for better readability */
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the Select Dropdown */
+form select {
+    width: 100%; /* Same width as input field */
+    padding: 15px;
+    font-size: 18px; /* Matching text size */
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the Add Button */
+form button {
+    width: 100%; /* Full-width button for easy interaction */
+    padding: 15px;
+    font-size: 18px;
+    background-color: #28a745; /* Green for action */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form button:hover {
+    background-color: #218838; /* Darker green hover effect */
+}
+
+/* Styling for the Task List Container */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Styling for Individual List Items */
+li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Task Buttons Container */
+.task-buttons {
+    display: flex;
+    gap: 15px; /* Adds space between buttons */
+}
+
+/* Complete Button Styling */
+.complete-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.complete-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Delete Button Styling */
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}
